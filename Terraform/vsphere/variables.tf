@@ -1,13 +1,13 @@
 // define vsphere variables
 
-variable "REMOVED_SERVER" {
+variable "vsphere_server" {
   type = string
 }
-variable "REMOVED_USER" {
+variable "vsphere_user" {
   type      = string
   sensitive = true
 }
-variable "REMOVED_PASSWORD" {
+variable "vsphere_password" {
   type      = string
   sensitive = true
 }

@@ -7,9 +7,9 @@ terraform {
 }
 
 provider "vsphere" {
-  REMOVED_SERVER        = var.REMOVED_SERVER
-  user                  = var.REMOVED_USER
-  password              = var.REMOVED_PASSWORD
+  vsphere_server        = var.vsphere_server
+  user                  = var.vsphere_user
+  password              = var.vsphere_password
   allow_unverified_ssl  = true
 }
 
